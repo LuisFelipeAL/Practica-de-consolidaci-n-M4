@@ -1,0 +1,21 @@
+/* Ajusta el contenedor para mostrar elementos en filas horizontales */
+#contenedorPersonajes,
+#contenedorNaciones,
+#contenedorArmas {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Espacio entre las tarjetas */
+    
+}
+/*Ajustar el tamaño de las tarjetas */
+.card {
+  width: 15em;
+}
+.card.mb-4{
+    width: 400px;
+}
+
+.bi-star-fill {
+    color: gold; 
+}
+
